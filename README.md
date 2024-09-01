@@ -7,3 +7,4 @@ Roles:
 - Yesenia: En carga de planificar y recordar actividades.
 - Cristina: En carga de los diseños (Mockups) y elaboracion de documento.
 - Moises Alexander Lara Guevara:descripcion de la estructura del proyecto.
+- David Isaac Segura Sánchez (Presupuesto de hotel)
