@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pantalla 1 - Hotel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Pantalla2.css">
+    <script src="JS/Pantalla2.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Pantalla1/Pantalla1.html">INICIO</a></li>
+                <li class="highlight"><a href="habitaciones.html">HABITACIONES</a></li>
+                <li><a href="../Pantalla3/Pantalla3.html">OFERTAS</a></li>
+                <li><a href="../Pantalla4/Pantalla4.html">INSTALACIONES</a></li>
+                <li><a href="../Pantalla5/Pantalla5.html">UBICACION</a></li>
+                <li><a href="../Pantalla6/Pantalla6.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="logo-container">
+            <img src="IMG/Logo.jpeg" alt="Logo" class="logo">
+            <p class="slogan">Descanso y confort en cada estancia.</p>
+        </div>
+
+        <section class="habitaciones">
+            <h2>Habitaciones</h2>
+            <!-- Habitaciones Individuales -->
+            <div class="habitacion">
+                <img src="IMG/imagen1.jpg" alt="Habitación Individual">
+                <h3>Habitación Individual</h3>
+                <p>Ideal para una persona. Confort y privacidad.</p>
+                <p>Precio: $50 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Individual', 50)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Individual')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen2.webp" alt="Habitación Individual">
+                <h3>Habitación Individual</h3>
+                <p>Ideal para una persona. Confort y privacidad.</p>
+                <p>Precio: $50 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Individual', 50)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Individual')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen3.avif" alt="Habitación Individual">
+                <h3>Habitación Individual</h3>
+                <p>Ideal para una persona. Confort y privacidad.</p>
+                <p>Precio: $50 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Individual', 50)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Individual')">Más Información</button>
+            </div>
+
+            <!-- Habitaciones Dobles -->
+            <div class="habitacion">
+                <img src="IMG/imagen4.webp" alt="Habitación Doble">
+                <h3>Habitación Doble</h3>
+                <p>Perfecta para parejas. Espacio y comodidad.</p>
+                <p>Precio: $80 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Doble', 80)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Doble')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen5.webp" alt="Habitación Doble">
+                <h3>Habitación Doble</h3>
+                <p>Perfecta para parejas. Espacio y comodidad.</p>
+                <p>Precio: $80 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Doble', 80)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Doble')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen6.jpg" alt="Habitación Doble">
+                <h3>Habitación Doble</h3>
+                <p>Perfecta para parejas. Espacio y comodidad.</p>
+                <p>Precio: $80 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Doble', 80)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Doble')">Más Información</button>
+            </div>
+
+            <!-- Habitaciones Ejecutivas -->
+            <div class="habitacion">
+                <img src="IMG/imagen7.JPG" alt="Habitación Ejecutiva">
+                <h3>Habitación Ejecutiva</h3>
+                <p>Para viajeros de negocios. Equipamiento completo.</p>
+                <p>Precio: $120 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Ejecutiva', 120)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Ejecutiva')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen3.avif" alt="Habitación Ejecutiva">
+                <h3>Habitación Ejecutiva</h3>
+                <p>Para viajeros de negocios. Equipamiento completo.</p>
+                <p>Precio: $120 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Ejecutiva', 120)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Ejecutiva')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen5.webp" alt="Habitación Ejecutiva">
+                <h3>Habitación Ejecutiva</h3>
+                <p>Para viajeros de negocios. Equipamiento completo.</p>
+                <p>Precio: $120 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Habitación Ejecutiva', 120)">Reservar</button>
+                <button class="boton-info" onclick="info('Habitación Ejecutiva')">Más Información</button>
+            </div>
+
+            <!-- Suites -->
+            <div class="habitacion">
+                <img src="IMG/imagen2.webp" alt="Suite">
+                <h3>Suite</h3>
+                <p>Lujo y exclusividad. Ideal para una experiencia única.</p>
+                <p>Precio: $200 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Suite', 200)">Reservar</button>
+                <button class="boton-info" onclick="info('Suite')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen7.JPG" alt="Suite">
+                <h3>Suite</h3>
+                <p>Lujo y exclusividad. Ideal para una experiencia única.</p>
+                <p>Precio: $200 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Suite', 200)">Reservar</button>
+                <button class="boton-info" onclick="info('Suite')">Más Información</button>
+            </div>
+            <div class="habitacion">
+                <img src="IMG/imagen1.jpg" alt="Suite">
+                <h3>Suite</h3>
+                <p>Lujo y exclusividad. Ideal para una experiencia única.</p>
+                <p>Precio: $200 por noche</p>
+                <button class="boton-reservar" onclick="reservar('Suite', 200)">Reservar</button>
+                <button class="boton-info" onclick="info('Suite')">Más Información</button>
+            </div>
+        </section>
+
+        <!-- Modal para el formulario de tarjeta -->
+        <div id="modal-tarjeta" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="cerrarModal()">&times;</span>
+                <h3>Información de la Tarjeta</h3>
+                <label for="nombre-titular">Nombre del Titular:</label>
+                <input type="text" id="nombre-titular" required>
+                <label for="numero-tarjeta">Número de Tarjeta:</label>
+                <input type="text" id="numero-tarjeta" required>
+                <label for="fecha-expiracion">Fecha de Expiración:</label>
+                <input type="text" id="fecha-expiracion" placeholder="MM/AA" required>
+                <label for="codigo-seguridad">Código de Seguridad:</label>
+                <input type="text" id="codigo-seguridad" required>
+                <button onclick="completarRegistro()">Completar Registro</button>
+            </div>
+        </div>
+
+<!-- Modal para la información -->
+<div id="modal-info" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="cerrarModal()">&times;</span>
+        <h3 id="habitacion-info"></h3>
+        <label for="contacto-info">Ingrese su correo electrónico o número de WhatsApp:</label>
+        <input type="text" id="contacto-info" required>
+        <button onclick="enviarInfo()">Enviar Información</button>
+    </div>
+</div>
+
+
+
+    </main>
+</body>
+</html>

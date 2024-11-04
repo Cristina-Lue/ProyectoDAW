@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Luar</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/estilohabitacones.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="IMG/Logo.jpeg" alt="Hotel Luar Logo">
+            <h1>Hotel "Luar"</h1>
+        </div>
+        <nav class="desktop-menu">
+            <a href="../Pantalla1/Pantalla1.html">INICIO</a>
+            <a class="highlight" href="#">HABITACIONES</a>
+            <a href="../Pantalla3/Pantalla3.html">OFERTAS</a>
+            <a href="../Pantalla4/Pantalla4.html">INSTALACIONES</a>
+            <a href="../Pantalla5/Pantalla5.html">UBICACIÓN</a>
+            <a href="../Pantalla6/Pantalla6.html">CONTACTO</a>
+        </nav>
+        <div class="mobile-menu-icon" onclick="toggleMenu()">☰</div>
+        <nav class="mobile-menu">
+            <a href="#">INICIO</a>
+            <a href="#">HABITACIONES</a>
+            <a href="#">OFERTAS</a>
+            <a href="#">INSTALACIONES</a>
+            <a href="#">UBICACIÓN</a>
+            <a href="#">CONTACTO</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2 onclick="redirect()">Tipos de habitaciones</h2>
+        <div class="container">
+        <div class="room-options">
+            <button>-Habitación Individual</button>
+            <button>-Habitación Doble</button>
+            <button>-Habitación Ejecutiva</button>
+            <button>-Suite</button>
+        </div>
+        <div class="room-image">
+            <img src="IMG/imagen7.JPG" alt="Habitación de hotel">
+        </div>
+    </div>
+    </main>
+
+    <script src="JS/funcionH.js"></script>
+</body>
+</html>

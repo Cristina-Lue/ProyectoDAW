@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="css/stylecomen.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../Pantalla1/Pantalla1.html">INICIO</a></li>
+                <li><a href="../Pantalla2/habitaciones.html">HABITACIONES</a></li>
+                <li><a href="../Pantalla3/Pantalla3.html">OFERTAS</a></li>
+                <li><a href="../Pantalla4/Pantalla4.html">INSTALACIONES</a></li>
+                <li><a href="../Pantalla5/Pantalla5.html">UBICACION</a></li>
+                <li class="contacto"><a href="Pantalla6.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h3>Deja tu comentario, que es importante para nosotros </h3>
+    <form id="commentForm">
+        <label for="commentInput">Comentario:</label>
+        <textarea id="commentInput" rows="4" cols="50" required></textarea><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <hr> <!-- Línea horizontal -->
+    <div id="commentSection">
+        <h4>Comentarios</h4>
+        <div id="commentsContainer"></div>
+    </div>
+
+    <script src="js/comenfuncion.js"></script>
+</body>
+</html>
