@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>INICIO DE SESIÓN</h2>
+        <form id="loginForm">
+            <label for="nombres">Nombres:</label>
+            <input type="text" id="nombres" name="nombres" required>
+
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" required>
+
+            <label for="dui">DUI:</label>
+            <input type="text" id="dui" name="dui" required>
+
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <button onclick="window.history.back()">VOLVER</button>
+    </div>
+
+    <script src="JS/login.js"></script>
+</body>
+</html>
